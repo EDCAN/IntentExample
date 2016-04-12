@@ -8,6 +8,7 @@ EditText에서 텍스트를 가져오는 메소는 editText.getText().toString()
 
 수업시간에 말했듯이 안드로이드에서 여러가지 액션을 취하려면 Intent를 사용하면 되는데
 SMS 를 보내는 액션도 Intent를 사용하면 됩니다.
+Intent 관련 사항은 연구해오는걸로 합시다 (구글에 치면 다나오는건 함정)
 
 과제는 토요일 자정까지 제출하는걸로 하겠습니다. (04/16 23:59:59)
 제출은 kotohana5706@edcan.kr로 app-debug.apk (너네 프로젝트폴더/app/build/outputs/폴더에 있음)
