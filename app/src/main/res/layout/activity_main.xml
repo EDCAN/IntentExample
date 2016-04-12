@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="전송할 번호를 입력해주세요"
+            android:inputType="number|textNoSuggestions"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/send_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="전송할 텍스트를 입력해주세요. \n최대 글자는 100글자입니다"
+            android:inputType="textNoSuggestions"
+            android:maxLength="100"
+            android:singleLine="true" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_send"
+        android:text="전송하기"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
